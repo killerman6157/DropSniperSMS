@@ -1,1 +1,10 @@
-
+aiogram==3.2.0
+aiohttp
+SQLAlchemy
+pydantic
+aiofiles
+certifi
+magic-filter
+typing-extensions
+jinja2
+python-dotenv
