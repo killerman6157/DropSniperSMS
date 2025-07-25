@@ -7,7 +7,7 @@ def show_dashboard():
         with open("otp_log.json", "r") as f:
             otp_log = json.load(f)
 
-        print("\n📊 FluxSMS Dashboard")
+        print("\n📊 DropSniperSMS Dashboard")
         print("="*30)
         print(f"🔢 Total Users: {len(user_map)}")
         for user_id, number in user_map.items():
